@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and environments
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# Match assets and datasets (strictly protected under competition rules)
+data/
+*.mp4
+*.m4v
+*.avi
+*.mov
+*_atd.txt
+*_atd.xml
+*_homography.csv
+*_smart_tagging.xml
+*.zip
+*.tar.gz
+
+# Intermediates and raw tracking exports
+intermediates/
+scratch/
+temp/
+*.log
+
+# Submissions (keep repository clean for distribution)
+submission/*.csv
+!submission/README.md
